@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>To do list</title>
+</head>
+<body class="bg-dark">
+    
+    <br>
+
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand fst-italic">To Do List</a>
+          <form class="d-flex">
+            <input class="form-control me-2" placeholder="Search task" type="search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+    <br>
+    <h1 class="fst-italic text-center text-warning">To Do List</h1>
+
+    <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+                <input type="text" accesskey="u" class="form-control" id="txb-input-task"> <br>
+                <div class="row fw-normal bg-white rounded" id="to-do-container">
+        
+                </div>
+            </div>
+             <div class="col-1">
+                <button type="button" class="btn btn-success border-white text-dark" id="btn-add-task">+</button>
+            </div>
+            <div class="card col-3" style="width: 15rem;">
+                <img src="./img/plantillas.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">¡Plantillas gratis!</h5>
+                  <p class="card-text">Consigue plantillas gratis de todo tipo</p>
+                  <a href="landing.html" class="btn btn-primary">¡Click aquí!</a>
+                </div>
+              </div>
+        </div>
+            
+            
+        
+    </div>
+
+    <script src="todo.js"></script>
+</body>
+</html>
